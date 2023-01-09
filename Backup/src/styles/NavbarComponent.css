@@ -1,0 +1,44 @@
+.navbar--container {
+    font-family: 'Raleway', sans-serif;
+}
+
+#navbarScroll>form>a {
+    text-decoration: none;
+    color: white;
+}
+
+.movieguru {
+    font-weight: 600;
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.guru--letter {
+    color: #0444a4;
+    font-weight: 700;
+    padding-left: 4px;
+}
+
+.searchbar {
+    margin-top: 2px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: #141619;
+    padding: 5px 15px;
+    color: white;
+    width: 20rem;
+}
+
+.searchbar:focus {
+    outline: none;
+    border: 1px solid #0444a4;
+}
+
+.nav--link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav--link:hover {
+    font-weight: 900;
+}

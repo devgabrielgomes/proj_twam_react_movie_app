@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+}
+
+.welcome--text {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.welcome--text h1 {
+  color: white;
+  text-align: center;
+}
+
+.mylist--text h1 {
+  color: white;
+  text-align: left;
+  padding: 30px;
+  padding-left: 80px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.movie--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie {
+  position: relative;
+  width: 220px;
+  margin: 2rem;
+  margin-bottom: 2.5rem;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.movie--poster {
+  max-width: 214px;
+  border: 6px solid white;
+  border-radius: 0.3rem;
+  height: 313px;
+  object-fit: cover;
+}
+
+.movie div span {
+  color: white;
+  opacity: 0.87;
+}
+
+.movie--info {
+  padding-top: 0.5rem;
+}
+
+.movie--info h4 {
+  font-size: 1.3rem;
+}
+
+.movie--rating {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 50%;
+}
+
+.movie--rating h2 {
+  display: inline;
+}
+
+.movie--rating img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  margin-bottom: 13px;
+  display: inline;
+}
+
+.movie--over {
+  position: absolute;
+  bottom: 0;
+  top: 6px;
+  left: 6px;
+  right: 12px;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+  height: 303px;
+  background-color: rgba(0, 0, 0, .8);
+  -webkit-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie:hover .movie--over {
+  visibility: visible;
+  opacity: 0.9;
+}
+
+.movie:hover .movie--poster {
+  border: 6px solid rgb(8, 11, 188);
+}
+
+.mylist {
+  padding-top: 50px;
+  background-image: url("https://image.tmdb.org/t/p/original/eSVvx8xys2NuFhl8fevXt41wX7v.jpg");
+  background-size: cover;
+}
+
+.movie--information {
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Raleway', sans-serif;
+  opacity: unset;
+}
+
+.movie--information img {
+  height: 380px;
+  width: 250px;
+  box-shadow: 0 0 1em rgb(0, 0, 0);
+}
+
+.synopsis {
+  padding-top: 70px;
+}
+
+.synopsis--text {
+  text-align: left;
+}
+
+.list--button {
+  padding: 100px;
+  min-width: 100px;
+  margin-left: 50px;
+  text-align: right;
+}
+
+.trailer--container {
+  text-align: center;
+}
+
+.trailer {
+  padding-top: 50px;
+}
+
+.teste1 {
+  display: flex;
+}
