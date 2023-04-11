@@ -1,3 +1,29 @@
+
+
+
+
+
+
+# API
+API Key: 3bf31c72f99e4189266c43358ac6e189
+
+FEATURED_API: "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3bf31c72f99e4189266c43358ac6e189&page=1"
+
+API REQUEST EXAMPLE: https://api.themoviedb.org/3/movie/550?api_key=3bf31c72f99e4189266c43358ac6e189
+
+API SEARCH EXAMPLE: https://api.themoviedb.org/3/search/company?api_key=3bf31c72f99e4189266c43358ac6e189&page=1
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
